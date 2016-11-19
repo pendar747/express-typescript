@@ -48,7 +48,7 @@ which runs nodemon and refreshes your browser using
 
 Right now every new typescript file needs to include
 ```
-git@github.com:pendar747/express-typescript.git
+/// <reference path="_all.d.ts" />
 ```
 at the top, which is pretty repetitive and annoying.
 
