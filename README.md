@@ -7,7 +7,7 @@ It is meant to be simple and free of confusing modules. The point is to start wi
 Some credit goes to 
 (this tutorial)[http://brianflove.com/2016/03/29/typescript-express-node-js/].
 
-# Structure
+## Structure
 ```
 /bin # compiled code and index.js (starting point of the server)
     index.js
@@ -27,11 +27,11 @@ tslint.json
 
 ```
 
-# Installation
+## Installation
 
 `npm install`
 
-# Running
+## Running
 
 First run grunt to compile your typescript code and put in the the bind dirictory.
 
@@ -44,7 +44,7 @@ Then do:
 which runs nodemon and refreshes your browser using 
 (reload)[https://www.npmjs.com/package/reload] when you make changes.
 
-# Note
+## Note
 
 Right now every new typescript file needs to include
 ```
