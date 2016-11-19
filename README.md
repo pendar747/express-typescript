@@ -43,3 +43,14 @@ Then do:
 
 which runs nodemon and refreshes your browser using 
 (reload)[https://www.npmjs.com/package/reload] when you make changes.
+
+# Note
+
+Right now every new typescript file needs to include
+```
+git@github.com:pendar747/express-typescript.git
+```
+at the top, which is pretty repetitive and annoying.
+
+Also don't forget to include the type definition of the npm modules by installing them as `npm install @types/<npm-module>`. For more info check out 
+(this)[https://blogs.msdn.microsoft.com/typescript/2016/06/15/the-future-of-declaration-files/].
